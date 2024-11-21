@@ -9,9 +9,9 @@ Couches :
 - Controllers : Contient le controlleur "RoutingController" qui expose la méthode Post prenant en entrée un entité de type RoutingDTO et renvoie une entité QueueDTO ou un objet de type IActionResult en fonction du traitement
 
 - Domain :
-  a. Entities : Contient l'ensemble des entités METIER Client, Licence, Queue et RoutingRule
-  b. Interfaces : Contient l'ensemble des interfaces repositories pour réaliser les traitements et validations METIER : IRoutingRepository, IValidator
-  c. Validators : Contient l'ensemble des implémentations des validateurs METIER : RoutingValidator
+  Entities : Contient l'ensemble des entités METIER Client, Licence, Queue et RoutingRule
+  Interfaces : Contient l'ensemble des interfaces repositories pour réaliser les traitements et validations METIER : IRoutingRepository, IValidator
+  Validators : Contient l'ensemble des implémentations des validateurs METIER : RoutingValidator
 
 - DTO : Expose l'ensemble des entites de transfert d'objet au client (entrée : RoutingDTO, sortie : QueueDTO)
 
