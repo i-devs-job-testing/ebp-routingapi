@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EBPRoutingAPI", "EBPRoutingAPI\EBPRoutingAPI.csproj", "{2A0F5F34-62DA-4201-838A-8C851A3874EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EBPRoutingsAPI.Tests", "EBPRoutingsAPI.Tests\EBPRoutingsAPI.Tests.csproj", "{91B4F413-494A-44FE-BF04-3D4A2F3BC046}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A0F5F34-62DA-4201-838A-8C851A3874EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A0F5F34-62DA-4201-838A-8C851A3874EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A0F5F34-62DA-4201-838A-8C851A3874EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A0F5F34-62DA-4201-838A-8C851A3874EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91B4F413-494A-44FE-BF04-3D4A2F3BC046}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91B4F413-494A-44FE-BF04-3D4A2F3BC046}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91B4F413-494A-44FE-BF04-3D4A2F3BC046}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91B4F413-494A-44FE-BF04-3D4A2F3BC046}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

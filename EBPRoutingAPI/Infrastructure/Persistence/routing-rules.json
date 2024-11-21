@@ -1,0 +1,37 @@
+[
+  {
+    "nom": "Client Direct",
+    "condition": "EstClientDirect",
+    "queue": "CLIENT"
+  },
+  {
+    "nom": "Client Grand Compte",
+    "condition": "EstClientGrandCompte",
+    "queue": "GRAND_COMPTE"
+  },
+  {
+    "nom": "Intégrateur Certifié",
+    "condition": "EstIntegrateur ET EstCertifie",
+    "queue": "INT_CERTIFIE"
+  },
+  {
+    "nom": "Intégrateur Certifié",
+    "condition": "EstIntegrateur ET EstCertifie",
+    "queue": "INT_CERTIFIE"
+  },
+  {
+    "nom": "Licence Administrée",
+    "condition": "Licence type est \"P\"",
+    "queue": "LIC_ADMIN"
+  },
+  {
+    "nom": "Partenaire ou Expert",
+    "condition": "EstPartenaire OU EstExpert",
+    "queue": "EXPERT"
+  },
+  {
+    "nom": "Fallback (par défaut)",
+    "condition": "EstPartenaire OU EstExpert",
+    "queue": "DEFAUT"
+  }
+]
